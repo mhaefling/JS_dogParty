@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #75e2e6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-color: #048eaa;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 20px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/park.jpg);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.hero img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #048eaa;
+    margin: 20px 0;
+}
+
+.hero form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero label {
+    transform: translateX(-200%);
+}
+
+.hero input {
+    width: 20%;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #75e2e6;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.info p {
+    text-align: left;
+}
+
+.dog-info {
+    text-align: center;
+    margin: 15px;
+}
+
+.dog-info img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #048eaa;  
+    width: 150px;
+    height: 150px;
+}
+
+.dog-info h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    padding-bottom: 15px;
+}
+
+.dog-info p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.dog-info button {
+    padding: 10px 20px;
+    background-color: #048eaa;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.social-dogs {
+    background-color: #048eaa;
+}
+
+.social-dogs p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dogs-online {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#left {
+    padding-right: 15px;
+}
